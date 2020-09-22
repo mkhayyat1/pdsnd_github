@@ -1,15 +1,23 @@
 ### Date created
-Include the date you created this project and README file.
+
+The project (bike share) was created in September 2020
+The README file created on September 23, 2020
 
 ### Project Title
-Replace the Project Title
+
+Bike Share
 
 ### Description
-Describe what your project is about and what it does
+
+Using Python to explore data related to bicycle sharing systems in three major US cities: Chicago, New York, and Washington, DC
+
+In the bike share project, we used the data provided by Motivate to explore a shared bike usage model. Motivate is a bicycle sharing system for many large cities in the United States. We compared system usage in three cities: Chicago, New York City, and Washington, DC
 
 ### Files used
-Include the files used
+
+bikeshare.py (the program codes)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+Thanks to Udacity for this course (Data sceinece)
+We learned a lot about Python and Git whitin short time.
