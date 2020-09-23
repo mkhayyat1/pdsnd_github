@@ -25,3 +25,5 @@ We learned a lot about Python and Git whitin short time.
 ### Documentation
 
 We have created new branch named (documentation) and that needs to be in consistance with our bikeshare project.
+
+Some changes made to python file.
