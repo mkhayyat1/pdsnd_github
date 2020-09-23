@@ -8,7 +8,6 @@
 
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -165,11 +164,11 @@ def station_stats(df, details):
     start_time = time.time()
 
     # TO DO: display most commonly used start station
-    com_start = df['Start Station'].value_counts().index[0]
+    com_start = df['Start Station'].mode()
     print('Most commonly used start station: {}.'.format(com_start))
 
     # TO DO: display most commonly used end station
-    com_end = df['End Station'].value_counts().index[0]
+    com_end = df['End Station'].mode()
     print('Most commonly used end station: {}.'.format(com_end))
 
     # TO DO: display most frequent combination of start station and end station trip
